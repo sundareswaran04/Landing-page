@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend mentor | Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="Desktop1" style="width: 100%; height: 100%; position: relative; background: #F3F3F3">
+  <div class="Logo" style="width: 101px; height: 33px; left: 28px; top: 32px; position: absolute;"><img src="logo.svg"></div>
+  <div class="Features" onmouseenter="f_up()" onmouseleave="f_down()">Features <img src="icon-arrow-down.svg" id="feature"></div>
+  <div class="Company"  onmouseenter="c_up()" onmouseleave="c_down()">Company <img src="icon-arrow-down.svg" id="company"></div>
+  <div class="Careers">Careers</div>
+  <div class="About">About</div>
+  <div class="SignUpButton" style="width: 145px; height: 54px; left: 1261px; top: 21px; position: absolute">
+      <div class="sign" ><h3>Register</h3></div>
+      <!-- <div class="Register" style="width: 104px; height: 30px; left: 30px; top: 10px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500;text-align:center;">Register</div> -->
+  </div>
+  <div class="Login">Login</div>
+  <div class="MakeRemoteWork" style="left: 125px; top: 168px; position: absolute; color: black; font-size: 96px; font-family: Poppins; font-weight: 700; line-height: 132px; word-wrap: break-word">Make<br/>remote work</div>
+  <img class="ImageHeroDesktop1" style="width: 515px; height: 687px; left: 807px; top: 137px; position: absolute" src="image-hero-desktop.png" />
+  <div class="ClientMeet1" style="width: 118px; height: 26px; left: 445px; top: 803px; position: absolute">
+      <div class="Vector" style="width: 117.10px; height: 26px; left: 0px; top: 0px; position: absolute;"><img src="client-meet.svg" alt=""></div>
+  </div>
+  <div class="ClientMaker1" style="width: 109px; height: 32px; left: 606px; top: 800px; position: absolute">
+      <div class="Vector" style="width: 107.71px; height: 32.01px; left: 0px; top: 0px; position: absolute;"><img src="client-maker.svg" alt=""></div>
+  </div>
+  <div class="ClientDatabiz1" style="width: 150px; height: 27px; left: 125px; top: 800px; position: absolute">
+      <div class="Vector" style="width: 148.88px; height: 27px; left: 0.50px; top: 0px; position: absolute;"><img src="client-databiz.svg" alt=""></div>
+  </div>
+  <div class="ClientAudiophile1" style="width: 96px; height: 47px; left: 312px; top: 800px; position: absolute">
+      <div class="Vector" style="width: 96px; height: 46.87px; left: 0px; top: 0px; position: absolute;"><img src="client-audiophile.svg" alt=""></div>
+  </div>
+  <div class="LeanMoreButton" style="width: 220px; height: 62px; left: 125px; top: 612px; position: absolute;display:flex;align-items:center;">
+      <div class="learnmore" ><h2 style="align-self:center;justify-self:center;position:relative;left:40px;">Learn more</h2></div>
+      
+  </div>
+  <div class="Para" style="left: 133px; top: 469px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Get your team in sync, no matter your location.<br/>Streamline processes, 
+create team rituals, and <br/>watch productivity soar.
+<br/></div>
+  <!-- <div class="IconArrowDown1" style="width: 20px; height: 12px; left: 275px; top: 43px; position: absolute"> -->
+      <!-- <div class="Vector" style="width: 16px; height: 8px; left: 2px; top: 2px; position: absolute;"><img src="icon-arrow-down.svg" ></div>
+  </div>
+  <div class="IconArrowDown2" style="width: 20px; height: 12px; left: 428px; top: 42px; position: absolute">
+      <div class="Vector" style="width: 16px; height: 8px; left: 2px; top: 2px; position: absolute;"><img src="icon-arrow-down.svg" ></div> -->
+  </div>
+  <div class="CompanyList" id="c-l">
+      <div class="Rectangle4" style="width: 129px; height: 138px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 10px"></div>
+      <div class="History" style="left: 20px; top: 18px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">History</div>
+      <div class="OurTeam" style="left: 20px; top: 61px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Our team</div>
+      <div class="Blog" style="left: 20px; top: 104px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Blog</div>
+  </div>
+  <div class="FeatureList" id="f-l">
+      <div class="Rectangle3" style="width: 187px; height: 178px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 10px"></div>
+      <div class="ToDo" style="width: 123px; height: 30px; left: 16px; top: 23px; position: absolute">
+          <div class="TodoList" style="left: 38px; top: 0px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Todo list</div>
+          <div class="IconTodo1" style="width: 21px; height: 22px; left: 0px; top: 0px; position: absolute">
+              <div class="Vector" style="width: 21px; height: 22px; left: 0px; top: 0px; position: absolute;"><img src="icon-todo.svg"></div>
+          </div>
+      </div>
+      <div class="Reminder" style="width: 146px; height: 30px; left: 17px; top: 90px; position: absolute">
+          <div class="Reminders" style="left: 37px; top: 0px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Reminders</div>
+          <div class="IconReminders1" style="width: 20px; height: 23px; left: 0px; top: 7px; position: absolute">
+              <div class="Vector" style="width: 18.46px; height: 22.58px; left: 0.63px; top: 0.30px; position: absolute;"><img src="icon-reminders.svg"></div>
+          </div>
+      </div>
+      <div class="Planning" style="width: 126px; height: 30px; left: 17px; top: 130px; position: absolute">
+          <div class="Planning" style="left: 37px; top: 0px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Planning</div>
+          <div class="IconPlanning1" style="width: 24px; height: 23px; left: 0px; top: 7px; position: absolute">
+              <div class="Vector" style="width: 24px; height: 23px; left: 0px; top: 0px; position: absolute;"><img src="icon-planning.svg"></div>
+          </div>
+      </div>
+      <div class="Calendar" style="width: 133px; height: 30px; left: 16px; top: 54px; position: absolute">
+          <div class="Calendar" style="left: 38px; top: 0px; position: absolute; color: #717171; font-size: 20px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Calendar</div>
+          <div class="IconCalendar1" style="width: 24px; height: 22px; left: 0px; top: 4px; position: absolute">
+              <div class="Vector" style="width: 24px; height: 22px; left: 0px; top: 0px; position: absolute;"><img src="icon-calendar.svg"></div>
+          </div>
+      </div>
+  </div>
+</div> 
+
+
+
+<script>
+  function f_up(){
+    const arrow =document.getElementById("feature");
+    arrow.src="icon-arrow-up.svg";
+ document.getElementById("f-l").style.display="inline"
+  }
+  function f_down(){
+    const arrow =document.getElementById("feature");
+    arrow.src="icon-arrow-down.svg";
+    document.getElementById("f-l").style.display="none"
+
+  }
+  function c_up(){
+    const arrow =document.getElementById("company");
+    arrow.src="icon-arrow-up.svg";
+    document.getElementById("c-l").style.display="inline"
+  }
+  function c_down(){
+    const arrow =document.getElementById("company");
+    arrow.src="icon-arrow-down.svg";
+    document.getElementById("c-l").style.display="none"
+  }
+
+</script>
+</body>
+</html>
+
